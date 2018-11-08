@@ -43,6 +43,10 @@ body {
   padding: 2px;
 }
 
+.status, .city {
+  width: 150px;
+}
+
 .cell {
   color: #f9c647;
 }
@@ -85,18 +89,45 @@ body {
   padding-left: 5px;
 }
 
+
 .inputSearch::-webkit-input-placeholder {
   font-size: 12px;
+}
+
+.inputSearch:hover::-webkit-input-placeholder {
+  color: #bebebe;
+}
+
+.inputSearch:focus::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
 }
 
 .inputSearch:-moz-placeholder {
   font-size: 12px;
 }
 
-.inputSearch::-moz-placeholder {
-  font-size: 12px;
+.inputSearch:hover:-moz-placeholder {
+  color: #bebebe;
+}
+
+.inputSearch:focus:-moz-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
 }
 
 .inputSearch:-ms-input-placeholder {
   font-size: 12px;
+}
+
+.inputSearch:hover:-ms-input-placeholder {
+  color: #bebebe;
+}
+
+.inputSearch:focus:-ms-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s ease-in-out;
+  transition: opacity 0.35s ease-in-out;
 }
