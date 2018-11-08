@@ -6,11 +6,12 @@ body {
 
 #root {
   text-align: center;
-  margin: 50px auto auto 30px;
+  //margin: 50px auto auto 30px;
 }
 
 .App {
   width: 800px;
+  margin: 0 auto;
 }
 
 .mainContainer {
